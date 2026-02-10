@@ -34,6 +34,8 @@ cp .env.example .env
 
 3. Install + run
 
+Be careful: before starting the services, wait a few seconds to make sure Kafka is fully up and running.
+
 ```bash
 pnpm i
 pnpm dev
