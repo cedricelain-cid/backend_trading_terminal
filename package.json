@@ -1,0 +1,15 @@
+{
+  "name": "trading-backend",
+  "private": true,
+  "packageManager": "pnpm@10.29.2",
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev --parallel",
+    "format": "prettier -w ."
+  },
+  "devDependencies": {
+    "turbo": "^2.8.3",
+    "prettier": "^3.6.2",
+    "typescript": "^5.9.3"
+  }
+}
